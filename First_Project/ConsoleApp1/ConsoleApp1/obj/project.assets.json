@@ -89,19 +89,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Luke\\.nuget\\packages\\": {}
+    "C:\\Users\\limpertl\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luke\\Documents\\F_Sharp\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.fsproj",
+      "projectUniqueName": "C:\\Users\\limpertl\\Documents\\F_Sharp\\First_Project\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.fsproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\Luke\\Documents\\F_Sharp\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.fsproj",
-      "packagesPath": "C:\\Users\\Luke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luke\\Documents\\F_Sharp\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "projectPath": "C:\\Users\\limpertl\\Documents\\F_Sharp\\First_Project\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.fsproj",
+      "packagesPath": "C:\\Users\\limpertl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\limpertl\\Documents\\F_Sharp\\First_Project\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Luke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\limpertl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wpTQ9JnDz0eUi9LsJwR6QRXZXYCDxxKuI5gjlCCnfsnRW16+hmvpxKoNIff+VHJD10/UtCbODYbrh707hRveqg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\limpertl\\Documents\\F_Sharp\\First_Project\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\limpertl\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
