@@ -1,6 +1,8 @@
 ﻿// Learn more about F# at http://fsharp.org
 
 // First F# program
+// for comments
+/// for XMLdoc comments which can include XML tags and markup
 
 /// Split a string into words at spaces
 let splitAtSpaces (text: string) = 
@@ -33,6 +35,9 @@ let showWordCount text =
     printfn "--> %d duplicate words" numDups
 
 let (numWords, numDups) = wordCount "Does this program work and count duplicate words?";;
+/// the "n" in printfn starts a new line at the end of the output
+/// you can use the .NET libraries directly to write this differently if necessary
+/// System.Console.WriteLine("---> {O} words in the text", numWords)
 
 ///Explanation of program
 
@@ -60,3 +65,10 @@ let site10 = ("news.bbc.com", 5)
 let site11 = ("www.msnbc.com", 4)
 let sites = (site1, site10, site11);;
 
+let relevance = snd site1;;
+let siteName = fst site1;;
+
+/// further breakout creating 1 line statements and sequential code
+let two = (printfn "Hello World"; 1 + 1);;
+/// the first portion is a side effect, which is discarded
+/// The overall expression will evaluate to the second result
