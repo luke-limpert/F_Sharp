@@ -6,12 +6,15 @@ module JumpStart
 let x = 42
 let hi = "Hello"
 
+let Greeting name = 
+    if System.String.IsNullOrWhiteSpace(name) then
+        "whoever you are"
+    else
+        name
+// Type interference when changing %s to %i
 let SayHiTo me = 
     printfn "hi, %s" (Greeting me)
 
-// Type interference when changing %s to %i
-let SayHiTo me = 
-    printfn "hi, %i" me
 // ;; terminating operator
 // needs to follow all ending lines in F# interactive
 
@@ -24,12 +27,6 @@ let Area length height =
 
 let Area2 (length : float)(height : float) = 
     length * height
-
-let Greeting name = 
-    if System.String.IsNullOrWhiteSpace(name) then
-        "whoever you are"
-    else
-        name
 
 let PrintNumbers min max = 
     for x in min..max do
