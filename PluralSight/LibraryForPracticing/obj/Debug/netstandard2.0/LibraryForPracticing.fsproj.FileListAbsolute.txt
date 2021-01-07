@@ -1,0 +1,8 @@
+C:\Users\limpertl\Documents\F_Sharp\PluralSight\LibraryForPracticing\bin\Debug\netstandard2.0\LibraryForPracticing.deps.json
+C:\Users\limpertl\Documents\F_Sharp\PluralSight\LibraryForPracticing\bin\Debug\netstandard2.0\LibraryForPracticing.dll
+C:\Users\limpertl\Documents\F_Sharp\PluralSight\LibraryForPracticing\bin\Debug\netstandard2.0\LibraryForPracticing.pdb
+C:\Users\limpertl\Documents\F_Sharp\PluralSight\LibraryForPracticing\obj\Debug\netstandard2.0\LibraryForPracticing.fsprojAssemblyReference.cache
+C:\Users\limpertl\Documents\F_Sharp\PluralSight\LibraryForPracticing\obj\Debug\netstandard2.0\LibraryForPracticing.AssemblyInfoInputs.cache
+C:\Users\limpertl\Documents\F_Sharp\PluralSight\LibraryForPracticing\obj\Debug\netstandard2.0\LibraryForPracticing.AssemblyInfo.fs
+C:\Users\limpertl\Documents\F_Sharp\PluralSight\LibraryForPracticing\obj\Debug\netstandard2.0\LibraryForPracticing.dll
+C:\Users\limpertl\Documents\F_Sharp\PluralSight\LibraryForPracticing\obj\Debug\netstandard2.0\LibraryForPracticing.pdb

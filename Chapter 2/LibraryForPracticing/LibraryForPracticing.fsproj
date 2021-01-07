@@ -5,8 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Chapter4.fs" />
     <Compile Include="Chapter3Practice.fs" />
-    <Compile Include="Library.fs" />
+    <Compile Include="C:\Users\limpertl\Documents\F_Sharp\PluralSight\LibraryForPracticing\PluralSightPractice.fs" Link="PluralSightPractice.fs" />
   </ItemGroup>
 
 </Project>

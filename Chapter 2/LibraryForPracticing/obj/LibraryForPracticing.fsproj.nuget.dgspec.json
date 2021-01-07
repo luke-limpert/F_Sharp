@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\limpertl\\Documents\\F_Sharp\\PluralSight\\LibraryForPracticing\\LibraryForPracticing.fsproj": {}
+    "C:\\Users\\limpertl\\Documents\\F_Sharp\\Chapter 2\\LibraryForPracticing\\LibraryForPracticing.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\limpertl\\Documents\\F_Sharp\\PluralSight\\LibraryForPracticing\\LibraryForPracticing.fsproj": {
+    "C:\\Users\\limpertl\\Documents\\F_Sharp\\Chapter 2\\LibraryForPracticing\\LibraryForPracticing.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\limpertl\\Documents\\F_Sharp\\PluralSight\\LibraryForPracticing\\LibraryForPracticing.fsproj",
+        "projectUniqueName": "C:\\Users\\limpertl\\Documents\\F_Sharp\\Chapter 2\\LibraryForPracticing\\LibraryForPracticing.fsproj",
         "projectName": "LibraryForPracticing",
-        "projectPath": "C:\\Users\\limpertl\\Documents\\F_Sharp\\PluralSight\\LibraryForPracticing\\LibraryForPracticing.fsproj",
+        "projectPath": "C:\\Users\\limpertl\\Documents\\F_Sharp\\Chapter 2\\LibraryForPracticing\\LibraryForPracticing.fsproj",
         "packagesPath": "C:\\Users\\limpertl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\limpertl\\Documents\\F_Sharp\\PluralSight\\LibraryForPracticing\\obj\\",
+        "outputPath": "C:\\Users\\limpertl\\Documents\\F_Sharp\\Chapter 2\\LibraryForPracticing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\limpertl\\AppData\\Roaming\\NuGet\\NuGet.Config",

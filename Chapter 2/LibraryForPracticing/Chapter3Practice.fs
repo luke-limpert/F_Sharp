@@ -51,7 +51,7 @@ let SaySomeNumbers() =
         printfn "Number: %i" i
 
 //using the filter function
-let squares = 
+let squares2 = 
     [|
         for i in 0..99 do
             yield i*i
