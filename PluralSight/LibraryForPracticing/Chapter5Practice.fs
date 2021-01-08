@@ -76,6 +76,6 @@ let PrintLines2() =
 
 //In F# 4.0 you can use mutable in the mutable context above
 //it is best to use mutation for optimization after you have a set of 
-//unittests to compare performance with
+//unittests to compare performance with mutation
 
 
