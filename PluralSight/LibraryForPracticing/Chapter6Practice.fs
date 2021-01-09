@@ -12,7 +12,7 @@ type Person(forename : string, surname : string) =
     member this.Forename = forename
     member this.Surname = surname
 
-// declare classname(constructors) =
+// declare classname(constructors) = 
 //constructors must be tupled together and its normal to specify types
 // member declaration then a self identifier which can be this or self
 // how to instantiate some people
