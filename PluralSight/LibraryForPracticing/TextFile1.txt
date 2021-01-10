@@ -1,0 +1,33 @@
+﻿F# Jumpstart notes
+
+F# is a CLI language which can be developed or ran on .NET
+Visual studio provides an IDE and compiler as well as an interactive environment for development called
+F# interactive
+
+syntax 
+let Area x y = 
+	x * y
+
+let defines values and functions
+functions return result of last expression
+indentions used instead of {} curly braces
+
+You do not necessarily have to specify the types for your functions because of type inference
+if you want to force types specify the type after a colon for the type involved
+
+let CircleArea (r : float) =
+	if r > 0. then
+		System.Math.PI * r * r
+	else
+		0.0
+
+if expressions generally return values so unless your working through side effects you generally have to have
+an else branch with every if
+
+for loops let you iterate across ranges of values
+
+Array module HOF (higher order functions)
+.init for creating an array with a function
+.filter for picking out particular elements
+.map for applying a function to generate another array
+
