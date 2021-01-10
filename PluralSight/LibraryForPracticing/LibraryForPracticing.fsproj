@@ -5,10 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Chapter6Practice.fs" />
     <Compile Include="Chapter5Practice.fs" />
     <Compile Include="Chapter4Practice.fs" />
     <Compile Include="Chapter3Practice.fs" />
     <Compile Include="Library.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit.Console" Version="3.11.1" />
   </ItemGroup>
 
 </Project>

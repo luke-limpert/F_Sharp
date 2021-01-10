@@ -7,14 +7,14 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "LibraryForPracticing/1.0.0": {
+      "PersonTests/1.0.0": {
         "dependencies": {
-          "FSharp.Core": "5.0.0",
+          "LibraryForPracticing": "1.0.0",
           "NETStandard.Library": "2.0.3",
-          "NUnit.Console": "3.11.1"
+          "NUnit": "3.13.0"
         },
         "runtime": {
-          "LibraryForPracticing.dll": {}
+          "PersonTests.dll": {}
         }
       },
       "FSharp.Core/5.0.0": {
@@ -72,6 +72,17 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
+      "NUnit/3.13.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/nunit.framework.dll": {
+            "assemblyVersion": "3.13.0.0",
+            "fileVersion": "3.13.0.0"
+          }
+        }
+      },
       "NUnit.Console/3.11.1": {
         "dependencies": {
           "NUnit.ConsoleRunner": "3.11.1",
@@ -87,11 +98,20 @@
       "NUnit.Extension.NUnitV2Driver/3.8.0": {},
       "NUnit.Extension.NUnitV2ResultWriter/3.6.0": {},
       "NUnit.Extension.TeamCityEventListener/1.0.7": {},
-      "NUnit.Extension.VSProjectLoader/3.8.0": {}
+      "NUnit.Extension.VSProjectLoader/3.8.0": {},
+      "LibraryForPracticing/1.0.0": {
+        "dependencies": {
+          "FSharp.Core": "5.0.0",
+          "NUnit.Console": "3.11.1"
+        },
+        "runtime": {
+          "LibraryForPracticing.dll": {}
+        }
+      }
     }
   },
   "libraries": {
-    "LibraryForPracticing/1.0.0": {
+    "PersonTests/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -116,6 +136,13 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "NUnit/3.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G+BOONgJKtNtprjGQ54l0m+Vq2VFCMh/H6ljuHfqrRlX6YkNy0GjMd5Nn0NpJidGpRd4gAOJsBqNuxr7Kgc/5g==",
+      "path": "nunit/3.13.0",
+      "hashPath": "nunit.3.13.0.nupkg.sha512"
     },
     "NUnit.Console/3.11.1": {
       "type": "package",
@@ -165,6 +192,11 @@
       "sha512": "sha512-CIScV9a7+wUu6Ylb+WO0q/WGWQVoB05TUj3XZHa1CO+2BInDdfIVkqtlrSguhy6D/AGIMaLVrCZpQkQ2m0bbzQ==",
       "path": "nunit.extension.vsprojectloader/3.8.0",
       "hashPath": "nunit.extension.vsprojectloader.3.8.0.nupkg.sha512"
+    },
+    "LibraryForPracticing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

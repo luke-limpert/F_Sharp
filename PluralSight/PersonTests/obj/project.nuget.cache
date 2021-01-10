@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "iaO9dm2G5hhtOlBQ14biF/Hpi/EiT0arbKgdoPbffUjl7EPkGDg5DHhgBDYXezCqm4YT7LQctOfr3emILbQmkA==",
+  "dgSpecHash": "+vVgkZgbjcP7n2UiTDjRN00lkkiwh3eYLdDDy8W/XJS3x8eHk69MSHxhZMweW7LFHFBlyleh5kKZK2qE7LY8IA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Luke\\Documents\\F_Sharp\\PluralSight\\LibraryForPracticing\\LibraryForPracticing.fsproj",
+  "projectFilePath": "C:\\Users\\Luke\\Documents\\F_Sharp\\PluralSight\\PersonTests\\PersonTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luke\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
     "C:\\Users\\Luke\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Luke\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Luke\\.nuget\\packages\\nunit\\3.13.0\\nunit.3.13.0.nupkg.sha512",
     "C:\\Users\\Luke\\.nuget\\packages\\nunit.console\\3.11.1\\nunit.console.3.11.1.nupkg.sha512",
     "C:\\Users\\Luke\\.nuget\\packages\\nunit.consolerunner\\3.11.1\\nunit.consolerunner.3.11.1.nupkg.sha512",
     "C:\\Users\\Luke\\.nuget\\packages\\nunit.extension.nunitprojectloader\\3.6.0\\nunit.extension.nunitprojectloader.3.6.0.nupkg.sha512",

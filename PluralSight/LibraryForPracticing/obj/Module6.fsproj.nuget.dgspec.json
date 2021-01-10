@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luke\\Documents\\F_Sharp\\PluralSight\\LibraryForPracticing\\LibraryForPracticing.fsproj": {}
+    "C:\\Users\\Luke\\Documents\\F_Sharp\\PluralSight\\LibraryForPracticing\\Module6.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\Luke\\Documents\\F_Sharp\\PluralSight\\LibraryForPracticing\\LibraryForPracticing.fsproj": {
+    "C:\\Users\\Luke\\Documents\\F_Sharp\\PluralSight\\LibraryForPracticing\\Module6.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luke\\Documents\\F_Sharp\\PluralSight\\LibraryForPracticing\\LibraryForPracticing.fsproj",
-        "projectName": "LibraryForPracticing",
-        "projectPath": "C:\\Users\\Luke\\Documents\\F_Sharp\\PluralSight\\LibraryForPracticing\\LibraryForPracticing.fsproj",
+        "projectUniqueName": "C:\\Users\\Luke\\Documents\\F_Sharp\\PluralSight\\LibraryForPracticing\\Module6.fsproj",
+        "projectName": "Module6",
+        "projectPath": "C:\\Users\\Luke\\Documents\\F_Sharp\\PluralSight\\LibraryForPracticing\\Module6.fsproj",
         "packagesPath": "C:\\Users\\Luke\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Luke\\Documents\\F_Sharp\\PluralSight\\LibraryForPracticing\\obj\\",
         "projectStyle": "PackageReference",

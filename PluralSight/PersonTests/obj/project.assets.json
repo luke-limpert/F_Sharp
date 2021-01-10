@@ -76,6 +76,21 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "NUnit/3.13.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
       "NUnit.Console/3.11.1": {
         "type": "package",
         "dependencies": {
@@ -104,6 +119,20 @@
       },
       "NUnit.Extension.VSProjectLoader/3.8.0": {
         "type": "package"
+      },
+      "LibraryForPracticing/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FSharp.Core": "5.0.0",
+          "NUnit.Console": "3.11.1"
+        },
+        "compile": {
+          "bin/placeholder/LibraryForPracticing.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryForPracticing.dll": {}
+        }
       }
     }
   },
@@ -279,6 +308,30 @@
         "netstandard.library.nuspec"
       ]
     },
+    "NUnit/3.13.0": {
+      "sha512": "G+BOONgJKtNtprjGQ54l0m+Vq2VFCMh/H6ljuHfqrRlX6YkNy0GjMd5Nn0NpJidGpRd4gAOJsBqNuxr7Kgc/5g==",
+      "type": "package",
+      "path": "nunit/3.13.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "build/NUnit.props",
+        "icon.png",
+        "lib/net35/nunit.framework.dll",
+        "lib/net35/nunit.framework.xml",
+        "lib/net40/nunit.framework.dll",
+        "lib/net40/nunit.framework.xml",
+        "lib/net45/nunit.framework.dll",
+        "lib/net45/nunit.framework.xml",
+        "lib/netstandard2.0/nunit.framework.dll",
+        "lib/netstandard2.0/nunit.framework.xml",
+        "nunit.3.13.0.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
     "NUnit.Console/3.11.1": {
       "sha512": "NYDlfcJXH/izT4zC1JYNN9E/36N4lDF3bcmQusXgMJIo0kNNNoIxi/7r6AwGEtTcdqSDSRK/KpR+V7laOLu1fA==",
       "type": "package",
@@ -395,13 +448,18 @@
         "nunit.extension.vsprojectloader.nuspec",
         "tools/vs-project-loader.dll"
       ]
+    },
+    "LibraryForPracticing/1.0.0": {
+      "type": "project",
+      "path": "../LibraryForPracticing/LibraryForPracticing.fsproj",
+      "msbuildProject": "../LibraryForPracticing/LibraryForPracticing.fsproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "FSharp.Core >= 5.0.0",
+      "LibraryForPracticing >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
-      "NUnit.Console >= 3.11.1"
+      "NUnit >= 3.13.0"
     ]
   },
   "packageFolders": {
@@ -410,11 +468,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luke\\Documents\\F_Sharp\\PluralSight\\LibraryForPracticing\\LibraryForPracticing.fsproj",
-      "projectName": "LibraryForPracticing",
-      "projectPath": "C:\\Users\\Luke\\Documents\\F_Sharp\\PluralSight\\LibraryForPracticing\\LibraryForPracticing.fsproj",
+      "projectUniqueName": "C:\\Users\\Luke\\Documents\\F_Sharp\\PluralSight\\PersonTests\\PersonTests.csproj",
+      "projectName": "PersonTests",
+      "projectPath": "C:\\Users\\Luke\\Documents\\F_Sharp\\PluralSight\\PersonTests\\PersonTests.csproj",
       "packagesPath": "C:\\Users\\Luke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luke\\Documents\\F_Sharp\\PluralSight\\LibraryForPracticing\\obj\\",
+      "outputPath": "C:\\Users\\Luke\\Documents\\F_Sharp\\PluralSight\\PersonTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Luke\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -430,30 +488,32 @@
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Luke\\Documents\\F_Sharp\\PluralSight\\LibraryForPracticing\\LibraryForPracticing.fsproj": {
+              "projectPath": "C:\\Users\\Luke\\Documents\\F_Sharp\\PluralSight\\LibraryForPracticing\\LibraryForPracticing.fsproj"
+            }
+          }
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {
       "netstandard2.0": {
         "targetAlias": "netstandard2.0",
         "dependencies": {
-          "FSharp.Core": {
-            "target": "Package",
-            "version": "[5.0.0, )",
-            "generatePathProperty": true
-          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.3, )",
-            "autoReferenced": true,
-            "generatePathProperty": true
+            "autoReferenced": true
           },
-          "NUnit.Console": {
+          "NUnit": {
             "target": "Package",
-            "version": "[3.11.1, )",
-            "generatePathProperty": true
+            "version": "[3.13.0, )"
           }
         },
         "imports": [
